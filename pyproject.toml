@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tg-ic-farm"
+version = "0.0.1"
+description = "Простой скрипт для автофарма ирис-коинов в телеграмме"
+authors = ["Dmitriy Kim <61637662+iriswolf@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyrogram = "^2.0.106"
+pydantic-settings = "^2.2.1"
+tgcrypto = "^1.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
